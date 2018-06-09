@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	
+	<!-- Inicio de Header (Logo + Título) -->
+	<header>
+		<svg width="130" height="130" viewbox="0 0 130 130">
+			<image width="130px" height="130px" xlink:href="images/Logo.svg" x="0" y="0" />
+		</svg>
+		<h1>Curriculum Vitae</h1>
+	</header>
+	<!-- Fin de Header -->
+	
+	<!-- Inicio de Sección de Datos Personales -->
+	<section id="Datos-Personales" name="seccion-de-datos-personales">
+		<h2>Nombres: Rodrigo Alejandro</h2> 
+		<h2>Apellidos: Contreras Díaz</h2>
+		<h3>Fecha de Nacimiento: 01 de octubre de 1985</h3>
+		<h3>Lugar de Nacimiento: Concepción, Chile</h3> 
+	</section>
+	<!-- Fin de Sección de Datos Personales -->
+
+	<!-- Inicio de Sección de Enlaces -->
+	<section id="Enlaces" name="enlaces-hacia-otras-paginas">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</section>
+	<!-- Fin de Sección de Enlaces -->
+
+
+	<section id="Educacion" name="seccion-educacion">
+		<h2>Educación</h2>
+
+		<table border="1" cellpadding="10" cellspacing="0"">
+			<tr>
+				<th>Año</th>
+				<th>Institución</th> 
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+			<tr>
+				<td>2005</td>
+				<td>Instituto Santo Tomás</td> 
+				<td>Concepción, Chile</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>2014</td>
+				<td>Universidad de Concepción</td> 
+				<td>Concepción Chile</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>-</td>
+				<td>-</td> 
+				<td>-</td>
+				<td>-</td>
+			</tr>
+		</table>
+
+		<form>
+			<h2>Agregar Estudios</h2>
+			<strong>Año: </strong>
+				<select name="Año" required>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2002</option>
+					<option>2003</option>
+					<option>2004</option>
+					<option>2005</option>
+					<option>2006</option>
+					<option>2007</option>
+					<option>2008</option>
+					<option>2009</option>
+					<option>2010</option>
+					<option>2011</option>
+					<option>2012</option>
+					<option>2013</option>
+					<option>2014</option>
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+					<option selected>2018</option>
+				</select><br><br>
+			<strong>Institución:</strong>
+			<input type="text" name="Institucion" required><br><br>
+			<strong>Lugar:</strong>
+			<input type="text" name="Lugar" required><br><br>
+			<input type="submit" name="submit" value="Enviar">
+		</form>
+
+	</section>
+
+
+	<!-- Inicio de Footer -->
+	<footer>
+		<h3>Contactos:</h3>
+		<ul id="lista-contactos">
+			<li>Correo Electrónico: personal@rodrigo-contreras.com</li>
+			<li>LinkedIn:<a href="https://www.linkedin.com/in/rodrigo-contreras-d%C3%ADaz-7b97b751/">Rodrigo Contreras</a></li>
+			<li>Dirección: Santiago, Chile</li>
+		</ul>
+	</footer>
+	<!-- Fin de Footer -->
+</body>
+</html>
